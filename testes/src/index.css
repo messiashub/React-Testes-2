@@ -1,14 +1,15 @@
-/* *{
-  width: 400px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 5px;
-} */
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
 
-body{
+  
+} 
+
+/* body{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
   text-align: center;
   justify-content: center;
   
   background: rgba(167, 251, 247, 0.534);
-}
+} */

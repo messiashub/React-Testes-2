@@ -1,16 +1,22 @@
+import React from 'react'
+import Header from './componentes/Header'
+import Main from './componentes/Main'
+import Footer from './componentes/Footer'
+
 
 import './App.css';
-import Map from './componentes/Map'
+
+
+
 
 function App() {
 
   return (
-    <div className="App">
-      <div className='Container'>
-        <Map  color="#906f7f"></Map>
-       
-
-      </div>
+    <div>
+      <Header/>
+      <Main></Main>
+      <Footer></Footer>
+      
     </div>
 
   );
