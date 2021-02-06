@@ -29,23 +29,45 @@ a{
 
     /* Celulares - Small */
 @media screen and (max-width:480px){ 
- .nav{
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav{
     display: none;
-    flex-direction: column;  
+    flex-direction: column; 
+    order: 2; 
   }
   .nav a{
     width: 100%;   
+  }
+  .buttonMob{
+    order: 1;
+    text-align: right;
+    padding: 5px 5% 5px 0;
   }
 }
 
   /* Tablets e celulares- Medium*/
 @media screen and (min-width:481px) and (max-width:768px){ 
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
   .nav{
-    display: none;    
+    display: none;  
+    flex-direction: column; 
+    order: 2;    
   }
   .nav a{
-    width: 25%;    
+    width: 100%;    
   }
+  .buttonMob{
+    order: 1;
+    text-align: right;
+    padding: 5px 5% 5px 0;
+  }
+  
 }
 /* Notebooks - Large*/
 @media screen and (min-width:769px) and (max-width:1199px){ 
@@ -55,6 +77,9 @@ a{
   .nav a{
     width: 25%;   
   }
+  .buttonMob{
+    display: none;
+  } 
 }
 
 /*  Tela maiores XLarges */
@@ -65,5 +90,8 @@ a{
   .nav a{
     width: 25%;
   }
+  .buttonMob{
+    display: none;
+  } 
 }
 
