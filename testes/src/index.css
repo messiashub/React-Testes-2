@@ -1,15 +1,69 @@
+/* Geral */
 *{
   margin:  0;
   padding: 0;
   box-sizing: border-box;
+  box-shadow:  inset 0px 0px 0px 1px rgba(0, 0, 255, 0.1);
+  font-size: 18px;
+  font-family:Helvetica, sans-serif;
 
   
 } 
-
-/* body{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif  ;
+/* Navegação */
+a{
+  text-decoration: none; 
+  font-weight: bold;
+}
+.nav{
+  background: #000;
+}
+.nav a{
   text-align: center;
-  justify-content: center;
-  
-  background: rgba(167, 251, 247, 0.534);
-} */
+  padding: 10px 0;
+  color:#fff;
+}
+ .nav a:hover{
+    background: #666;
+  }
+/* Media Queries */
+
+    /* Celulares - Small */
+@media screen and (max-width:480px){ 
+ .nav{
+    display: none;
+    flex-direction: column;  
+  }
+  .nav a{
+    width: 100%;   
+  }
+}
+
+  /* Tablets e celulares- Medium*/
+@media screen and (min-width:481px) and (max-width:768px){ 
+  .nav{
+    display: none;    
+  }
+  .nav a{
+    width: 25%;    
+  }
+}
+/* Notebooks - Large*/
+@media screen and (min-width:769px) and (max-width:1199px){ 
+  .nav{
+    display: flex;   
+  }
+  .nav a{
+    width: 25%;   
+  }
+}
+
+/*  Tela maiores XLarges */
+@media screen and (min-width:1200px){ 
+  .nav{
+    display: flex;  
+  }
+  .nav a{
+    width: 25%;
+  }
+}
+
