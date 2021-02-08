@@ -15,7 +15,7 @@ a{
   font-weight: bold;
 }
 .nav{
-  background: #000;
+  background: rgb(49, 138, 101);
 }
 .nav a{
   text-align: center;
@@ -23,7 +23,7 @@ a{
   color:#fff;
 }
  .nav a:hover{
-    background: #666;
+    background: rgb(66, 231, 36);
   }
 /* Media Queries */
 
@@ -46,6 +46,28 @@ a{
     text-align: right;
     padding: 5px 5% 5px 0;
   }
+  .logo{
+    position: absolute;
+    top: 5px;
+    left: 5%;
+  }
+  .address{
+    
+    order: 3;
+    color: #fff;
+   
+    padding: 10px 5%;
+    line-height: 35px;
+    text-align: center;
+    background: rgb(49, 138, 101);;
+  }
+  .address img{
+    vertical-align: middle;
+  }
+  .address strong{
+    
+    font-size: 25px;
+  }
 }
 
   /* Tablets e celulares- Medium*/
@@ -67,6 +89,28 @@ a{
     text-align: right;
     padding: 5px 5% 5px 0;
   }
+  .logo{
+    position: absolute;
+    top: 5px;
+    left: 5%;
+  }
+  .address{
+    
+    order: 3;
+    color: #fff;
+   
+    padding: 10px 5%;
+    line-height: 35px;
+    text-align: center;
+    background: rgb(49, 138, 101);;
+  }
+  .address img{
+    vertical-align: middle;
+  }
+  .address strong{
+    
+    font-size: 25px;
+  }
   
 }
 /* Notebooks - Large*/
@@ -80,6 +124,25 @@ a{
   .buttonMob{
     display: none;
   } 
+  .logo{
+    float: left;
+    width: 30%;
+    padding: 15px 0 15px 10%;
+  }
+  .address{
+    float: left;
+    width: 70%;
+    padding: 20px 5% 10px 20%;
+    line-height: 35px;
+    text-align: center;
+  }
+  .address img{
+    vertical-align: middle;
+  }
+  .address strong{
+    color: #35ad3f;
+    font-size: 25px;
+  }
 }
 
 /*  Tela maiores XLarges */
@@ -93,5 +156,24 @@ a{
   .buttonMob{
     display: none;
   } 
+  .logo{
+    float: left;
+    width: 30%;
+    padding: 15px 0 15px 10%;
+  }
+  .address{
+    float: left;
+    width: 70%;
+    padding: 20px 5% 10px 20%;
+    line-height: 35px;
+    text-align: center;
+  }
+  .address img{
+    vertical-align: middle;
+  }
+  .address strong{
+    color: #35ad3f;
+    font-size: 25px;
+  }
 }
 
