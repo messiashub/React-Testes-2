@@ -23,7 +23,7 @@ export default class Slide extends React.Component {
         ];
         return (
             <div>
-                <ImageGallery items={images} />;
+                <ImageGallery items={images} />
             </div>
         )
 
